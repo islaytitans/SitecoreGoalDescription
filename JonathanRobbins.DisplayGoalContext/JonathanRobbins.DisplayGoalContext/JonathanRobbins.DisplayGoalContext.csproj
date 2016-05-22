@@ -55,8 +55,9 @@
     <Compile Include="Reporting\Contact\Goals\Schemas.cs" />
     <Compile Include="Reporting\ReportingServerDatasource\Goals\GetGoals.cs" />
   </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
-    <Folder Include="App_Config\Includes\" />
+    <None Include="App_Config\Includes\JonathanRobbins.ExperienceProfile.Reporting.ShowGoalContext..config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
