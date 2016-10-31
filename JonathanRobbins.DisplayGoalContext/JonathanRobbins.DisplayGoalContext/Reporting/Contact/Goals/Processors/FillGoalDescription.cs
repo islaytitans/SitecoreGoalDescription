@@ -21,7 +21,7 @@ namespace JonathanRobbins.DisplayGoalContext.Reporting.Contact.Goals.Processors
 
             foreach (DataRow row in resultTableForView.AsEnumerable())
             {
-                var goalData = args.QueryResult.Rows[i].ItemArray[4];
+                var goalData = args.QueryResult.Rows[i].ItemArray.Last();
                 if (goalData != null)
                 {
                     row[Schemas.GoalDescription.Name] = goalData;

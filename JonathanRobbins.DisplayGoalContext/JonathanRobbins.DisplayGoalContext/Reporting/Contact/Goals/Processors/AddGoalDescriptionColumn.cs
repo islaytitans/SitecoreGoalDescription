@@ -13,7 +13,9 @@ namespace JonathanRobbins.DisplayGoalContext.Reporting.Contact.Goals.Processors
         public override void Process(ReportProcessorArgs args)
         {
             if (args.ResultTableForView == null)
+            {
                 return;
+            }
 
             args.ResultTableForView.Columns.Add(Schemas.GoalDescription.ToColumn());
         }

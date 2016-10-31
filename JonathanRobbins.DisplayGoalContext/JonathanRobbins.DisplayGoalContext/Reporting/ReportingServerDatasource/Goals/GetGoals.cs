@@ -30,17 +30,17 @@ namespace JonathanRobbins.DisplayGoalContext.Reporting.ReportingServerDatasource
                 "ContactId",
                 "Pages_PageEvents_PageEventDefinitionId",
                 "Pages_PageEvents_DateTime",
-                "Pages_PageEvents_Data",
                 "Pages_Url_Path",
                 "Pages_Url_QueryString",
                 "Pages_PageEvents_Value",
-                "Pages_Item__id"
+                "Pages_Item__id",
+                "Pages_PageEvents_Data" //Add description in final column
             }
         };
 
         public override void Process(ReportProcessorArgs args)
         {
-            DataTable goalsData = this.GetGoalsData(args.ReportParameters.ContactId);
+            DataTable goalsData = GetGoalsData(args.ReportParameters.ContactId);
             args.QueryResult = goalsData;
         }
 
