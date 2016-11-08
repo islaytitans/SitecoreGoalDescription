@@ -58,7 +58,7 @@
   <ItemGroup />
   <ItemGroup>
     <None Include="App_Config\Includes\JonathanRobbins.ExperienceProfile.Reporting.ShowGoalContext..config" />
-    <None Include="core\sitecore\client\Applications\ExperienceProfile\Contact\PageSettings\Tabs\Activity\Activity Subtabs\Goals\GoalsPanel\Goals\Goal Description.item" />
+    <None Include="Serialization\Goal Description.item" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
