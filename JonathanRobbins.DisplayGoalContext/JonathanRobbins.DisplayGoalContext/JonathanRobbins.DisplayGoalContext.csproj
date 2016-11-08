@@ -57,7 +57,7 @@
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
-    <None Include="App_Config\Includes\JonathanRobbins.ExperienceProfile.Reporting.ShowGoalContext..config" />
+    <None Include="App_Config\Includes\ExperienceProfile\zJonathanRobbins.ExperienceProfile.Reporting.ShowGoalContext..config" />
     <None Include="Serialization\Goal Description.item" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
